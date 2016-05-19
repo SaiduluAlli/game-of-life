@@ -40,6 +40,7 @@ public class Universe {
         int maxRow = currentGridContent.getWidth();
         int maxColumn = currentGridContent.getHeight();
         // TODO: simplify this code
+        System.out.println("This is sample checkin");
         for (int y = 0; y < maxRow; y++) {
             for (int x = 0; x < maxColumn; x++) {
                 Cell currentCell = currentGridContent.getCellAt(x, y);
