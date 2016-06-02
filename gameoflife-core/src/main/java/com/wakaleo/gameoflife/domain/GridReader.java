@@ -6,7 +6,6 @@ import java.util.List;
 public class GridReader {
 
     private static final String NEW_LINE = System.getProperty("line.separator");
-    System.out.println("This is a test debug");
     public Cell[][] loadFrom(final String gridContents) {
         List<Cell[]> rows = new ArrayList<Cell[]>();
         String[] rowValues = splitIntoRows(gridContents);
