@@ -1,3 +1,5 @@
+// Grid Reader.java
+// Author : Saidulu Alli
 package com.wakaleo.gameoflife.domain;
 
 import java.util.ArrayList;
