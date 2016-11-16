@@ -41,6 +41,7 @@ public class Universe {
         int maxColumn = currentGridContent.getHeight();
         // TODO: simplify this code
         System.out.println("This is sample checkin");
+        System.out.println("This is checkin from allis to test webhooks");
         for (int y = 0; y < maxRow; y++) {
             for (int x = 0; x < maxColumn; x++) {
                 Cell currentCell = currentGridContent.getCellAt(x, y);
