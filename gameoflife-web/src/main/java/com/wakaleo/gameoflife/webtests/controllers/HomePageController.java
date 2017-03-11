@@ -1,4 +1,4 @@
-package com.wakaleo.gameoflife.webtests.controllers;
+;package com.wakaleo.gameoflife.webtests.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,6 +19,6 @@ public class HomePageController {
 
     @RequestMapping("/home")
     public ModelAndView home() {
-        return new ModelAndView("home")
+        return new ModelAndView("home");
     }
 }
