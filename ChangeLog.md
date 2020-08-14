@@ -18,3 +18,7 @@ Devops demo
 1.0.4
 -----
 demo 4
+
+1.0.5
+-----
+from git server
