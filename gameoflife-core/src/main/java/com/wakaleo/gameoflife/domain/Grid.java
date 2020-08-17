@@ -110,6 +110,6 @@ public class Grid {
                 contentCopy[row][column] = cells[row][column];
             }
         }
-        return contentCopy
+        return contentCopy;
     }
 }
